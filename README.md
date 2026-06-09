@@ -14,8 +14,8 @@ A highly customizable OTA (Over-The-Air) update UI package for Expo apps. Includ
 This repository includes reusable Agent Skills for AI coding agents, compatible with the open `SKILL.md` ecosystem used by tools such as [skills.sh](https://www.skills.sh/).
 
 ```bash
-npx skills add CarlosZiegler/expo-fancy-ota-updates --list
-npx skills add CarlosZiegler/expo-fancy-ota-updates --skill expo-ota-ui-integration
+npx skills add ddedic/expo-fancy-ota-updates --list
+npx skills add ddedic/expo-fancy-ota-updates --skill expo-ota-ui-integration
 ```
 
 See [`skills/README.md`](./skills/README.md) for the included OTA integration, publishing, channel switching, and branding/i18n skills.

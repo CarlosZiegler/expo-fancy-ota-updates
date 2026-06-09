@@ -24,15 +24,15 @@ Each `SKILL.md` has YAML frontmatter with a `name` and `description`, followed b
 From another project, list or install these skills from this repository:
 
 ```bash
-npx skills add CarlosZiegler/expo-fancy-ota-updates --list
-npx skills add CarlosZiegler/expo-fancy-ota-updates --skill expo-ota-ui-integration
-npx skills add CarlosZiegler/expo-fancy-ota-updates --skill expo-ota-publish-workflow
+npx skills add ddedic/expo-fancy-ota-updates --list
+npx skills add ddedic/expo-fancy-ota-updates --skill expo-ota-ui-integration
+npx skills add ddedic/expo-fancy-ota-updates --skill expo-ota-publish-workflow
 ```
 
 Install all skills:
 
 ```bash
-npx skills add CarlosZiegler/expo-fancy-ota-updates --skill '*'
+npx skills add ddedic/expo-fancy-ota-updates --skill '*'
 ```
 
 For Claude Code specifically, project installs are typically placed under `.claude/skills/` in the consuming project. The `skills` CLI handles agent-specific install locations.
